@@ -21,7 +21,7 @@ public class Main {
         service.bookRoom(2, 1, sdf.parse("07/07/2026"), sdf.parse("09/07/2026"));
         service.bookRoom(2, 3, sdf.parse("07/07/2026"), sdf.parse("08/07/2026"));
 
-        service.setRoom(1, RoomType.SUITE, 10000); // Should not affect existing bookings
+        service.setRoom(1, RoomType.SUITE, 10000); 
 
         System.out.println("\n--- All Users ---");
         service.printAllUsers();
